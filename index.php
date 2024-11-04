@@ -35,7 +35,7 @@
         $ingresso = $_POST['ingresso'];
         echo "Bem vindo $nome!";
 
-        if ($idade <= 18) { 
+        if ($idade < 18) { 
             echo "<p>Ingresso não permitido para menores de 18 anos.</p>"; 
         }
         else {
